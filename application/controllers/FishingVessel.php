@@ -17,7 +17,7 @@ class FishingVessel extends CI_Controller {
         echo 'Show all vessels...';
     }
 
-    public function new()
+    public function new_vessel()
     {
         $this->load->view('header');
         $this->load->view('fishing-vessel/new-ship');
