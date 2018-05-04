@@ -12,7 +12,11 @@
                 <div class="form-group">
                     <label for="">ประเทศ</label>
                     <select class="form-control">
-                        <option>Default select</option>
+                        <?php foreach ($country_list as $country): ?>
+                            <option value="<?php echo $country['id'] ?>">
+                                <?php echo $country['Name'] ?>
+                            </option>
+                        <?php endforeach ?>
                     </select>
                 </div>
                 <button class="btn btn-primary btn-lg">เพิ่ม</button>
