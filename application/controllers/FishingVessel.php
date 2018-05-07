@@ -112,6 +112,15 @@ class FishingVessel extends CI_Controller
         $this->fishingvessel_model->delete_vessel();
         redirect('fishingvessel/');
     }
+
+    public function report()
+    {
+        $data['title'] = "รายงานเรือประมง";
+
+        $this->load->view('header', $data);
+        $this->load->view('fishing-vessel/report');
+        $this->load->view('footer');
+    }
 }
 
 /* End of file FishingVessel.php */
