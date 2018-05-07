@@ -4,6 +4,7 @@
         <div  class="card-body">
             <h5 class="card-title">ข้อมูลเรือประมง</h5>
         
+            <?php echo validation_errors(); ?>
             <!-- <form action=""> -->
             <?php echo form_open('fishingvessel/create') ?>
                 <div class="form-group">
