@@ -9,7 +9,7 @@
     <script src="<?=base_url()?>assets/js/chart/fusioncharts.charts.js"></script>
     <script src="<?=base_url()?>assets/js/chart/theme/fusioncharts.theme.fint.js"></script>
     <script src="<?=base_url()?>assets/js/jquery-3.3.1.js"></script>
-    <script src="<?=base_url()?>assets/js/jquery-fusioncharts.js"></script>
+    <script src="<?=base_url()?>assets/js/fusioncharts-jquery-plugin.js"></script>
     <title>
         <?php echo $title ?> - Fishing Vessel
     </title>
