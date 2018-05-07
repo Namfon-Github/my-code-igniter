@@ -4,14 +4,15 @@
         <div  class="card-body">
             <h5 class="card-title">ข้อมูลเรือประมง</h5>
         
-            <form action="">
+            <!-- <form action=""> -->
+            <?php echo form_open('fishingvessel/create') ?>
                 <div class="form-group">
-                    <label for="">ชื่อ</label>
-                    <input class="form-control" type="text">
+                    <label for="vesselName">ชื่อ</label>
+                    <input id="vesselName" name="vesselName" class="form-control" type="text">
                 </div>
                 <div class="form-group">
-                    <label for="">ประเทศ</label>
-                    <select class="form-control">
+                    <label for="country">ประเทศ</label>
+                    <select id="country" name="country" class="form-control">
                         <?php foreach ($country_list as $country): ?>
                             <option value="<?php echo $country['id'] ?>">
                                 <?php echo $country['Name'] ?>
@@ -19,7 +20,7 @@
                         <?php endforeach ?>
                     </select>
                 </div>
-                <button class="btn btn-primary btn-lg">เพิ่ม</button>
+                <input type="submit" value="เพิ่ม" name="submit" class="btn btn-primary btn-lg"/>
                 <button class="btn btn-secondary btn-lg">ล้าง</button>
             </form>
         </div>
