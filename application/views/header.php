@@ -30,7 +30,9 @@
       <li class="nav-item">
         <a class="nav-link" href="<?php echo site_url('fishingvessel/new_vessel'); ?>">New Vessel</a>
       </li>
-      
+      <li class="nav-item">
+        <a class="nav-link" href="<?php echo site_url('fishingvessel/report'); ?>">Report</a>
+      </li>
     </ul>
     
   </div>
