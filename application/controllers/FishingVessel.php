@@ -37,6 +37,11 @@ class FishingVessel extends CI_Controller
 
     public function create()
     {
+        
+        // เด๋วจะใส่ code uploadfile
+
+        
+        
         // การใช้ library เพื่อตรวจสอบความถูกต้องขอข้อมูล
         $this->load->library('form_validation');
         //เรียกใช้คำสั่งเพื่อตรวจสอบค่าของ textbox นั้นๆ ไม่ให้ว่าง ข้อความจะแสดงเตือนเป็นภาษาอังกฤษ
