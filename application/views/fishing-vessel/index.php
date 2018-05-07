@@ -29,7 +29,15 @@
                     <?php echo $ship['Country_ID'] ?>
                 </h5>
                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                
+            <?php
+                $hidden['vesselID'] = $ship['id'];
+                echo form_open('fishingvessel/delete_vessel','',$hidden);
+            ?>
+                <input type="submit" name="submit" value="ลบ" class="btn-primary">
+            </form>
             </div>
+            
         </div>
     </div>
 <?php
