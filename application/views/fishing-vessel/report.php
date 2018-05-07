@@ -1,3 +1,5 @@
+
+<script src="<?base_url()?>assets/js/my-chart.js"></script>
 <div class="row">
     <div class="col-6">
         <div class="card">
